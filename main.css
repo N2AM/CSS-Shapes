@@ -1,0 +1,41 @@
+h1 {
+  margin-bottom: 40px;
+}
+h3 {
+  padding: 1em;
+}
+p {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.shape-outside-circle img {
+  float: left;
+  margin: -25px 5em -1.5em 0;
+  width: 200px;
+  border-radius: 50%;
+  shape-outside: circle();
+}
+.shape-outside-polygon img {
+  float: left;
+  margin: 1em;
+  width: 250px;
+  shape-outside: polygon(
+    nonzero,
+    72.35% 83.95%,
+    45.5% 94.3%,
+    0% 100%,
+    0% 88.4%,
+    0% 23.7%,
+    38.7% 11.35%,
+    55% 11.1%,
+    63.5% 22.7%,
+    72.15% 20.75%,
+    79.1% 30.6%,
+    79.8% 34.55%,
+    87.6% 43.95%,
+    83.7% 57.3%,
+    89.15% 65.7%,
+    92.55% 72.1%,
+    91.15% 83.2%
+  );
+}
